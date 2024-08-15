@@ -1,2 +1,2 @@
 # techwatch.github.io
-It is an clone app for only project practice purpose.
+It is just a clone website for only project practice purpose.
