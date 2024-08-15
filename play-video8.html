@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Video </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="flex-div">
+        <div class="nav-left flex-div">
+            <img src="images/menu.png" class="menu-icon">
+            <a href="index.html"><img src="images/logo6.png" class="logo"></a>
+        </div>
+        <div class="nav-middle flex-div">
+            <div class="search-box flex-div">
+                <input type="text" placeholder="Seacrh">
+                <img src="images/search.png">
+            </div>
+            <img src="images/voice-search.png" class="mic-icon">
+        </div>
+        <div class="nav-right flex-div">
+            <img src="images/upload.png">
+            <img src="images/more.png">
+            <img src="images/notification.png">
+            <img src="images/me.jpg" class="user-icon">
+        </div>
+    </nav>
+<div class="container play-container">
+    <div class="row">
+        <div class="play-video">
+            <video controls autoplay>
+                <source src="images/lambo.mp4" type="video/mp4">
+            </video>
+
+            <div class="tags">
+                <a href="">#Car</a><a href="">#beauty</a><a href="">#supercar</a>
+            </div>
+            <h3>Watch | Lamborghini on road.</h3>
+            <div class="play-video-info">
+                <p>21k views &bull; 2 months ago</p>
+                <div>
+                    <a href=""><img src="images/like.png">125</a>
+                    <a href=""><img src="images/dislike.png">2</a>
+                    <a href=""><img src="images/share.png">Share</a>
+                    <a href=""><img src="images/save.png">Save</a>
+                </div>
+            </div>
+            <hr>
+            <div class="publisher">
+                <img src="images/prsn4.jpg">
+                <div>
+                    <p>channel that...</p>
+                    <span>500k Subscribers</span>
+                </div>
+                <button type="button" onclick="Subscribe('Subscribed !')">Subscribe</button>
+                <script>
+                    function Subscribe(msg){
+                        alert(msg)
+                    }
+                </script>
+            </div>
+            <div class="vid-description">
+                <p>Channel that makes ...</p>
+                <p>Subscribe to channel for more videos</p>
+                <hr>
+                <h4>134 Comments</h4>
+
+                <div class="add-comment">
+                    <img src="images/prsn4.jpg">
+                    <input type="text" placeholder="write comments...">
+                </div>
+                <div class="old-comment">
+                    <img src="images/prsn2.png">
+                    <div>
+                        <h3>misti <span>2 days ago</span></h3>
+                        <p>Everything in life is somewhere else, and you get there in a car. It's like driving a car at night. You never see further than your headlights, but you can make the whole trip that way. The cars we drive say a lot about us.
+                        
+                        </p>
+                        <div class="comment-action">
+                            <img src="images/like.png">
+                            <span>244</span>
+                            <img src="images/dislike.png">
+                            <span>2</span>
+                            <span>REPLY</span>
+                            <a href="">all replies</a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="old-comment">
+                    <img src="images/prsn3.png">
+                    <div>
+                        <h3>veeru <span>2 days ago</span></h3>
+                        <p>Everything in life is somewhere else, and you get there in a car. It's like driving a car at night. You never see further than your headlights, but you can make the whole trip that way. The cars we drive say a lot about us.
+                        
+                        </p>
+                        <div class="comment-action">
+                            <img src="images/like.png">
+                            <span>244</span>
+                            <img src="images/dislike.png">
+                            <span>2</span>
+                            <span>REPLY</span>
+                            <a href="">all replies</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+
+        <div class="right-sidebar">
+
+            <div class="side-video-list">
+                <a href="play-video.html" class="small-thumbnail"><img src="images/thumbnail1.png"></a>
+                <div class="vid-info">
+                    <a href="play-video.html">Watch | Girl enjoying the sea view | watch more videos on our channel.</a>
+                    <p>Subscribe to watch more videos of people enjoying beautiful places.</p>
+                    <p>1225 views &bull; 2 days ago</p>
+                    
+                </div>
+            </div>
+            <div class="side-video-list">
+                <a href="play-video2.html" class="small-thumbnail"><img src="images/jugnu.jpeg"></a>
+                <div class="vid-info">
+                    <a href="play-video2.html">Watch | Fireflies making darkness more beautiful.</a>
+                    <p>Subscribe to watch more videos like this.</p>
+                    <p>445 views &bull; 8 days ago</p>
+                    
+                </div>
+            </div>
+            <div class="side-video-list">
+                <a href="play-video3.html" class="small-thumbnail"><img src="images/lake.jpg"></a>
+                <div class="vid-info">
+                    <a href="play-video3.html">Watch | Beautiful waterfalls and lakes.</a>
+                    <p>Subscribe to watch more videos related to this.</p>
+                    <p>11k views &bull; 23 days ago</p>
+                </div>
+            </div>
+            <div class="side-video-list">
+                <a href="play-video4.html" class="small-thumbnail"><img src="images/lightening.png"></a>
+                <div class="vid-info">
+                    <a href="play-video4.html">Watch | lightening captured during rainy day.</a>
+                    <p>Subscribe to watch more videos related to this.</p>
+                    <p>17 views &bull; 7 days ago</p>
+                </div>
+            </div>
+            <div class="side-video-list">
+                <a href="play-video5.html" class="small-thumbnail"><img src="images/nature.jpg"></a>
+                <div class="vid-info">
+                    <a href="play-video5.html">Watch | Explore forests and make yourself relax.</a>
+                    <p>Subscribe to watch more videos related to this.</p>
+                    <p>2.1k views &bull; 21 days ago</p>
+                </div>
+            </div>
+            <div class="side-video-list">
+                <a href="play-video6.html" class="small-thumbnail"><img src="images/thumbnail6.png"></a>
+                <div class="vid-info">
+                    <a href="play-video6.html">Wach | Interior design of cars.</a>
+                    <p>Subscribe to watch more videos related to this.</p>
+                    <p>17k views &bull; 2 months ago</p>
+                </div>
+            </div>
+            <div class="side-video-list">
+                <a href="play-video7.html" class="small-thumbnail"><img src="images/thumbnail7.png"></a>
+                <div class="vid-info">
+                    <a href="play-video7.html">Watch | Corporate world from outside.</a>
+                    <p>Subscribe to watch more videos related to this.</p>
+                    <p>667 views &bull; 2 weeks ago</p>
+                </div>
+            </div>
+            <div class="side-video-list">
+                <a href="play-video8.html" class="small-thumbnail"><img src="images/thumbnail8.png"></a>
+                <div class="vid-info">
+                    <a href="play-video8.html">Watch | Lamborghini on road.</a>
+                    <p>Subscribe to watch more videos related to this.</p>
+                    <p>21k views &bull; 2 months ago</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
